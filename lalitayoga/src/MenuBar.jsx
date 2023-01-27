@@ -7,19 +7,26 @@ import LA from './assets/LA.png';
 function MenuBar() {
   return (
     <>
-      <Navbar bg="dark" variant="dark" fixed="top" className='vh-5 d-block'>
-        <Container className='d-flex justify-content-center' >
+      <Navbar variant="dark" fixed="top" className='vh-5 d-block'>
+        <Container className='d-flex justify-content-around' >
+            <Nav className="d-flex justify-content-between">
+            <Nav.Link href="">Stay</Nav.Link>
+            <Nav.Link href="">Experiences</Nav.Link>
 
-          <Navbar.Brand href="#home" style={{margin:"7px"}}>
+          </Nav>
+          <Navbar.Brand href="#home" style={{margin:"0.5px"}}>
           <img
               src={LA}
               width="160"
               height="50"
               margin-top="10px"
-              className="d-inline-block"
+             
             />
           </Navbar.Brand>
-                   
+          <Nav  className="d-flex justify-content-between">
+            <Nav.Link href="">Yoga/Surf Classes</Nav.Link>
+            <Nav.Link href="">About Us</Nav.Link>
+          </Nav>
         </Container>
       </Navbar>
 

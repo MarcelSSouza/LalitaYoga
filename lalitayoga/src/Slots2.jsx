@@ -6,7 +6,7 @@ import yoga from './assets/salayoga.jpg';
 
 function Slots() {
     return(
-        <div>
+        <div style={{backgroundColor: "#eef2cf"} }>
         <Container className='d-flex justify-content-center'>
             <Row className='d-flex flex-column justify-content-around flex-lg-row '>
            

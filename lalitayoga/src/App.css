@@ -63,7 +63,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
-.navbar {padding:1px 1rem !important}
+.navbar {padding:1px 1rem !important; background-color: #444945!important;}
     .navbar-brand { padding:0 !important; line-height: 52px !important}
 body {
 	line-height: 1;

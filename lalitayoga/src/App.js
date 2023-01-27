@@ -5,18 +5,18 @@ import CarouselMain from './CarouselMain';
 import  Footer  from './Footer';
 import Slots from './Slots';
 import Slots2 from './Slots2';
+import ContactForm from './ContactForm';
   
 function App() {
   return (
     <div className="App">
       <MenuBar/>
       <CarouselMain />
-      <br></br>
+      <br/>
       <Slots/>
-      <br></br>
-      <br></br>
-      <br></br>
+      <br/>
       <Slots2/>
+      <ContactForm/>
       <Footer />
     </div>
   );

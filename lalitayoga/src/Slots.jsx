@@ -6,9 +6,9 @@ import yoga from './assets/salayoga.jpg';
 
 function Slots() {
     return(
-        <div>
-        <Container >
-            <Row className='d-flex flex-column justify-content-around flex-lg-row '>
+        <div  style={{backgroundColor: "#eef2cf"} } >
+        <Container className="vw-100 m-0">
+            <Row className='d-flex flex-column justify-content-around flex-lg-row  '>
                 <Col >
                     <img src={yoga} className='img-fluid' alt='yoga' />
                 </Col>
