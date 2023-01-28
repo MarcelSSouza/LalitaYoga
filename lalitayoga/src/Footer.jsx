@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { FaFacebook,FaInstagram } from "react-icons/fa";
 function Footer() {
   return (
-    <footer className="mt-5" style={{backgroundColor: "#eef2cf"} }>
+    <footer className="mt-5" >
       <Container
         fluid={true}
         className="d-flex flex-column justify-content-around flex-md-row "
@@ -16,18 +16,10 @@ function Footer() {
         </div>
         <div>
           <h3>Contact us</h3>
-          <p>🇵🇹+351 915 783 064</p>
-        <p><a href="mailto:lalitayogacamp@gmail.com">lalitayogacamp@gmail.com</a></p>
+          <p>🇵🇹+351 915 783 064 - lalitayogacamp@gmail.com</p> 
           <p>🇵🇹 AL/581100</p>
         </div>
-        <div>
-          <h3>Follow us</h3>
-          <div className="d-flex justify-content-around">
-          <FaFacebook  size="6vh" />
-          <FaInstagram size="6vh" />
-          </div>
- 
-        </div>
+
       </Container>
     </footer>
   );

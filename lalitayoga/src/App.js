@@ -6,6 +6,9 @@ import  Footer  from './Footer';
 import Slots from './Slots';
 import Slots2 from './Slots2';
 import ContactForm from './ContactForm';
+import InstagramSlot from './InstagramSlot';
+import ZapSlot from './ZapSlot';
+import MainFooter from './MainFooter';
   
 function App() {
   return (
@@ -16,8 +19,10 @@ function App() {
       <Slots/>
       <br/>
       <Slots2/>
+      <InstagramSlot />
       <ContactForm/>
       <Footer />
+      <MainFooter />  
     </div>
   );
 }
