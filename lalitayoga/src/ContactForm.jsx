@@ -5,7 +5,7 @@ import FloatingLabel from "react-bootstrap/FloatingLabel";
 function ContactForm() {
   return (
     <div className="w-75 d-flex flex-column m-auto mt-5">
-      <h1 className="text-center">Contact Us</h1>
+      <h1 className="text-center">Send Email</h1>
 
       <Row className="g-2">
         <Col md>

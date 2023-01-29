@@ -19,6 +19,8 @@ function App() {
       <Slots/>
       <br/>
       <Slots2/>
+      <br/>
+      <Slots/>
       <InstagramSlot />
       <ContactForm/>
       <Footer />
