@@ -6,31 +6,28 @@ import LA from './assets/LA.png';
 
 function MenuBar() {
   return (
-    <>
-      <Navbar variant="dark" fixed="top" className='vh-5 d-block'>
-        <Container className='d-flex justify-content-around' >
-            <Nav className="d-flex justify-content-between">
-            <Nav.Link href="">Stay</Nav.Link>
-            <Nav.Link href="">Experiences</Nav.Link>
-
-          </Nav>
-          <Navbar.Brand href="#home" style={{margin:"0.5px"}}>
+    <Navbar collapseOnSelect expand="lg" variant="dark" fixed="top" className='vh-5 d-block'>
+      <Container className='d-flex justify-content-around'>
+        <Navbar.Brand href="#home">
           <img
-              src={LA}
-              width="160"
-              height="50"
-              margin-top="10px"
-             
-            />
-          </Navbar.Brand>
-          <Nav  className="d-flex justify-content-between">
-            <Nav.Link href="">Yoga/Surf Classes</Nav.Link>
-            <Nav.Link href="">About Us</Nav.Link>
+            src={LA}
+            width="160"
+            height="50"
+            className="d-inline-block align-top"
+            alt="Logo"
+          />
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="ml-auto">
+            <Nav.Link href="#stay">Stay</Nav.Link>
+            <Nav.Link href="#experiences">Experiences</Nav.Link>
+            <Nav.Link href="#classes">Yoga/Surf Classes</Nav.Link>
+            <Nav.Link href="#about">About Us</Nav.Link>
           </Nav>
-        </Container>
-      </Navbar>
-
-    </>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 }
 
