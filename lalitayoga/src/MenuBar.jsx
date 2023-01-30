@@ -7,7 +7,7 @@ import LA from './assets/LA.png';
 function MenuBar() {
   return (
     <Navbar collapseOnSelect expand="lg" variant="dark" fixed="top" className='vh-5 d-block'>
-      <Container className='d-flex justify-content-around'>
+      <Container >
         <Navbar.Brand href="#home">
           <img
             src={LA}
@@ -17,13 +17,14 @@ function MenuBar() {
             alt="Logo"
           />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ml-auto">
-            <Nav.Link href="#stay">Stay</Nav.Link>
-            <Nav.Link href="#experiences">Experiences</Nav.Link>
-            <Nav.Link href="#classes">Yoga/Surf Classes</Nav.Link>
-            <Nav.Link href="#about">About Us</Nav.Link>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav " />
+        <Navbar.Collapse id="responsive-navbar-nav" className='d-lg-flex justify-content-lg-end justify-content-lg-end'>
+          <Nav >
+            <Nav.Link href="#stay">The House</Nav.Link>
+            <Nav.Link href="#experiences">Stay</Nav.Link>
+            <Nav.Link href="#classes">Price & Booking</Nav.Link>
+            <Nav.Link href="#about">Yoga</Nav.Link>
+            <Nav.Link href="#about">Our Family</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
