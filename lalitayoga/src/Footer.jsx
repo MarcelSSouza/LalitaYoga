@@ -1,27 +1,70 @@
 //create a basic footer component
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-const MyMap=`<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3100.72998760971!2d-9.419027684175125!3d38.99865837955515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1f26f476a6a91d%3A0xd23602a1ac087462!2sLalit%C4%81%20House%20Yoga%20Camp!5e0!3m2!1spt-PT!2spt!4v1674917046610!5m2!1spt-PT!2spt" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+
+  faAirbnb,
+  faInstagram
+} from "@fortawesome/free-brands-svg-icons";
+import airbnb from "./assets/airbnb.jpg";
+
 function Footer() {
   return (
-    <footer className="mt-5" >
+    <footer className="mt-5">
+    <hr />
       <Container
         fluid={true}
-        className="d-flex flex-column justify-content-around flex-md-row "
+        className="d-flex flex-column justify-content-evenly  flex-md-row "
       >
         <div>
-
-          <div dangerouslySetInnerHTML={{__html: MyMap}}></div>
+          <h5>Where to find us</h5>
+          <p>R. dos Lírios 5, 2640-012</p>
+          <p>Ribamar, Portugal</p>
         </div>
         <div>
-          <h3>Contact</h3>
-          <br></br>
-          <p>🇵🇹 AL/581100</p>
-          <p>🇵🇹+351 915 783 064</p>
-          <p>lalitayogacamp@gmail.com</p> 
-          <p>R. dos Lírios 5, 2640-012, Ribamar- Portugal</p>
+          <h5>Contact us</h5>
+          <p>
+            <a href="mailto:lalitayogacamp@gmail.com">
+              lalitayogacamp@gmail.com
+            </a>
+          </p>
+          <p>
+            <a href="https://api.whatsapp.com/send?phone=351915783064">
+              +351 915 783 064
+            </a>
+          </p>
         </div>
 
+        <div className="partners">
+          <h5>How to follow us</h5>
+          <div className="social-container d-flex justify-content-evenly">
+          <a
+            href="https://www.facebook.com/learnbuildteach/"
+            className="facebook social"
+          >
+            <FontAwesomeIcon icon={faFacebook}style={{color: "black"}}  size="3x"  />
+          </a>
+          <a
+            href="https://www.instagram.com/learnbuildteach"
+            className="instagram social"
+          >
+            <FontAwesomeIcon icon={faInstagram}style={{color: "black"}}  size="3x" />
+          </a>
+          </div>
+        </div>
+        
+        <div className="partners">
+          <h5>Our partners</h5>
+          <a
+            href="https://www.instagram.com/learnbuildteach"
+            className="instagram social"
+          >
+    <FontAwesomeIcon icon={faAirbnb}size="3x" style={{color: "black"}}  />
+    </a>
+
+        </div>
       </Container>
     </footer>
   );
