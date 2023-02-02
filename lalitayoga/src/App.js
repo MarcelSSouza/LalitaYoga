@@ -24,7 +24,6 @@ function App() {
       <Slots2/>
       <br/>
       <Slots  tittle="Book your Stay"/>
-      <InstagramSlot />
       <AnyQuestions/>
       <Footer />
       <MainFooter />  
