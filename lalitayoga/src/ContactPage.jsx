@@ -7,11 +7,13 @@ import {
     faInstagram
 } from '@fortawesome/free-brands-svg-icons';
 import contact from './assets/contact.jpeg';
+import MenuBar from './MenuBar';
+import MainFooter from './MainFooter';
 function ContactPage() {
     const mapframe = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3100.72998760971!2d-9.419027684175125!3d38.99865837955515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1f26f476a6a91d%3A0xd23602a1ac087462!2sLalit%C4%81%20House%20Yoga%20Camp!5e0!3m2!1spt-PT!2spt!4v1675338844890!5m2!1spt-PT!2spt" width="500" height="400" style="border:0; position:relative; width:90vw;" allowfullscreen=""  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'
     return ( 
         <div>
-
+          <MenuBar />
         <img src={contact} alt="contact" className='mb-5' style={{height:"50vh", width:"100vw"}}/>
         <Container
         fluid={true}
@@ -65,6 +67,8 @@ function ContactPage() {
         </div>
         </div>
         < ContactForm />
+
+        <MainFooter />
 
         </div>
      );

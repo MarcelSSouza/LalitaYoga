@@ -4,29 +4,28 @@ import MenuBar from './MenuBar';
 import CarouselMain from './CarouselMain';
 import  Footer  from './Footer';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
-
-import Slots from './Slots';
-import Slots2 from './Slots2';
-import ContactForm from './ContactForm';
-import InstagramSlot from './InstagramSlot';
-import ZapSlot from './ZapSlot';
-import MainFooter from './MainFooter';
-import AnyQuestions from './AnyQuestions';
-  
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Main from './Main';
+import OurFamily from './OurFamily';
+import ContactPage from './ContactPage';
+import FoodPage from './FoodPage';
 function App() {
   return (
     <div className="App">
-      <MenuBar/>
-      <CarouselMain />
-      <br/>
-      <Slots tittle="Our Family"/>
-      <br/>
-      <Slots2/>
-      <br/>
-      <Slots  tittle="Book your Stay"/>
-      <AnyQuestions/>
-      <Footer />
-      <MainFooter />  
+
+      <BrowserRouter>
+<Routes>
+
+    <Route index element={<Main />} />
+    <Route path="contact" element={<ContactPage/>} />
+    <Route path="about" element={<OurFamily/>} />
+    <Route path="food" element={<FoodPage/>} />
+    <Route path="yoga" element={<FoodPage/>} />
+    <Route path="house" element={<FoodPage/>} />
+    <Route path="book" element={<FoodPage/>} />
+
+</Routes>
+</BrowserRouter>
     </div>
   );
 }

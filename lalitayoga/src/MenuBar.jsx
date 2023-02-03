@@ -8,7 +8,7 @@ function MenuBar() {
   return (
     <Navbar collapseOnSelect expand="lg" variant="dark" fixed="top" className='vh-5 d-block'>
       <Container >
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/">
           <img
             src={LA}
             width="160"
@@ -20,12 +20,12 @@ function MenuBar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav " />
         <Navbar.Collapse id="responsive-navbar-nav" className='d-lg-flex justify-content-lg-end justify-content-lg-end'>
           <Nav >
-            <Nav.Link href="#stay">OUR FAMILY</Nav.Link>
-            <Nav.Link href="#experiences">YOGA</Nav.Link>
-            <Nav.Link href="#classes">THE HOUSE</Nav.Link>
-            <Nav.Link href="#about">BOOK YOUR STAY</Nav.Link>
-            <Nav.Link href="#about">BLOG</Nav.Link>
-            <Nav.Link href="#about">CONTACT</Nav.Link>
+            <Nav.Link href="/about">OUR FAMILY</Nav.Link>
+            <Nav.Link href="/yoga">YOGA</Nav.Link>
+            <Nav.Link href="/house">THE HOUSE</Nav.Link>
+            <Nav.Link href="/book">BOOK YOUR STAY</Nav.Link>
+            <Nav.Link href="/food">FOOD</Nav.Link>
+            <Nav.Link href="/contact">CONTACT</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
