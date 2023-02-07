@@ -17,13 +17,10 @@ function CarouselMain() {
             autoPlay
             loop
             muted
-            className=' w-auto vh-100 image-fluid'
+            className=' w-100 vh-100 image-fluid'
             style={{objectFit:'cover'}}
               />
-            <Carousel.Caption className=' d-block'>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </Carousel.Caption>
+
           </Carousel.Item>
         
         </Carousel>

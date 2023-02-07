@@ -9,6 +9,7 @@ import Main from './Main';
 import OurFamily from './OurFamily';
 import ContactPage from './ContactPage';
 import FoodPage from './FoodPage';
+import YogaPage from './YogaPage';
 function App() {
   return (
     <div className="App">
@@ -20,7 +21,7 @@ function App() {
     <Route path="contact" element={<ContactPage/>} />
     <Route path="about" element={<OurFamily/>} />
     <Route path="food" element={<FoodPage/>} />
-    <Route path="yoga" element={<FoodPage/>} />
+    <Route path="yoga" element={<YogaPage/>} />
     <Route path="house" element={<FoodPage/>} />
     <Route path="book" element={<FoodPage/>} />
 
