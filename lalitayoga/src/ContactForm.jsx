@@ -34,7 +34,12 @@ function ContactForm() {
           </FloatingLabel>
         </Col>{" "}
       </Row>
-      <Button variant="dark" type="submit" className="mt-2" style={{backgroundColor: "#444945"}}>
+      <Button
+        variant="dark"
+        type="submit"
+        className="mt-2"
+        style={{ backgroundColor: "#444945" }}
+      >
         Submit
       </Button>
     </div>

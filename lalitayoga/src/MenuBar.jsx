@@ -22,10 +22,11 @@ function MenuBar() {
           <Nav >
             <Nav.Link href="/about">OUR FAMILY</Nav.Link>
             <Nav.Link href="/yoga">YOGA</Nav.Link>
-            <Nav.Link href="/house">THE HOUSE</Nav.Link>
-            <Nav.Link href="/book">BOOK YOUR STAY</Nav.Link>
+            <Nav.Link href="/house">HOUSE</Nav.Link>
+            <Nav.Link href="/book">BOOK</Nav.Link>
             <Nav.Link href="/food">FOOD</Nav.Link>
             <Nav.Link href="/contact">CONTACT</Nav.Link>
+            <Nav.Link href="/next">EVENTS</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -23,7 +23,6 @@ function YogaPage() {
         </Carousel.Item>
       </Carousel>
       <br></br>
-      <h1>Yoga Classes and Retreats</h1>
       <p style={{ textAlign: "justify" }} className="m-5">
         We organize all-year long courses, retreats, training, and workshops
         following the traditional Yoga curriculum and the Vedanta values. Our
@@ -48,95 +47,40 @@ function YogaPage() {
         <a href="/about">yogis and teachers</a> with experience in Yoga and its
         many branches.{" "}
       </p>
+
+      <div className="d-flex flex-column flex-lg-row justify-content-evenly align-items-center">
+
       <Button
         variant="dark"
         className="mb-5"
         style={{ backgroundColor: "#444945" }}
-      >
-        BOOK NOW
+        >
+       
+        <a href="/yoga/traditionalretreat" style={{color: "white"}}  >
+
+        Traditional Retreat
+        </a>
       </Button>
-      <Carousel>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={food1}
-            alt="First slide"
-            style={{ height: "60vh" }}
-          />
-        </Carousel.Item>
-      </Carousel>
-      <br></br>
-      <h1>Yoga Courses</h1>
-      <p style={{ textAlign: "justify" }} className="m-5">
-        Take time for yourself and honour your temple with a breakaway in
-        beautiful Sintra. Join us for one week and be immersed in nature. During
-        this time together we are going to explore the Vinyasa discipline
-        starting from the most traditional approach, the eastern one, till the
-        most contemporary and creative one. This experience is designed for
-        those who wish to go deeper into the practice of Vinyasa Yoga, to
-        understand its techniques, its secrets, it philosophy. Bks Iyengar
-        writes: "The word vinyasa has two parts. Vi means separating and nyasa
-        means placing or putting down. Vinyasa means separating and putting down
-        or placing in a sequential order." We will point at the exploration of
-        the correct alignment which will bring you an understanding of the
-        healing purpose of the asanas and the inner feeling of the body and
-        mind.{" "}
-      </p>
-      <h1 className="m-5">Program and Daily Schedule</h1>
-      <p className="m-5" style={{ textAlign: "justify" }}>
-        Experience the timeless wisdom of yoga at our traditional yoga retreat.
-        Immerse yourself in a peaceful environment, surrounded by nature and
-        dedicated to the practice of yoga. Our retreats are led by experienced
-        teachers who guide you through a variety of yoga styles, including
-        Hatha, Vinyasa, and Restorative Yoga. Take this opportunity to deepen
-        your practice, connect with like-minded individuals, and rejuvenate your
-        mind, body, and soul. Our retreats offer a balanced program of yoga,
-        meditation, and mindfulness, along with delicious healthy meals and
-        comfortable accommodation.
-      </p>
-      <Carousel>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={food1}
-            alt="First slide"
-            style={{ height: "60vh" }}
-          />
-        </Carousel.Item>
-      </Carousel>
-      <br></br>
-      <Container>
-        <h1 className="m-5">Traditional Yoga Retreat</h1>
-        <p style={{ textAlign: "justify" }}>
-          Experience the timeless wisdom of yoga at our traditional yoga
-          retreat. Immerse yourself in a peaceful environment, surrounded by
-          nature and dedicated to the practice of yoga. Our retreats are led by
-          experienced teachers who guide you through a variety of yoga styles,
-          including Hatha, Vinyasa, and Restorative Yoga. Take this opportunity
-          to deepen your practice, connect with like-minded individuals, and
-          rejuvenate your mind, body, and soul. Our retreats offer a balanced
-          program of yoga, meditation, and mindfulness, along with delicious
-          healthy meals and comfortable accommodation.
-        </p>
+      <Button
+        variant="dark"
+        className="mb-5"
+        style={{ backgroundColor: "#444945" }}
+        ><a href="/yoga/meditationcourse" style={{color: "white"}}  >
 
-        <p style={{ textAlign: "justify" }}>
-          Come and join us on a journey of self-discovery and transformation.
-          Book your traditional yoga retreat with us today and connect with your
-          inner self, discovering peace, joy and balance.
-        </p>
+        Meditation Course
+        </a>
+      </Button>
+      <Button
+        variant="dark"
+        className="mb-5"
+        style={{ backgroundColor: "#444945" }}
+        >
+          <a href="/yoga/immersiontraining" style={{color: "white"}}  >
 
-        <h1 className="m-5">Program and Daily Schedule</h1>
-        <p className="m-5" style={{ textAlign: "justify" }}>
-          Experience the timeless wisdom of yoga at our traditional yoga
-          retreat. Immerse yourself in a peaceful environment, surrounded by
-          nature and dedicated to the practice of yoga. Our retreats are led by
-          experienced teachers who guide you through a variety of yoga styles,
-          including Hatha, Vinyasa, and Restorative Yoga. Take this opportunity
-          to deepen your practice, connect with like-minded individuals, and
-          rejuvenate your mind, body, and soul. Our retreats offer a balanced
-          program of yoga, meditation, and mindfulness, along with delicious
-          healthy meals and comfortable accommodation.
-        </p>
+          Immersion Training</a>
+    
+      </Button>
+        </div>
 
         <h3>
           <b>Available Dates</b>
@@ -175,7 +119,16 @@ function YogaPage() {
         <h5>
           <b>November 11-18</b> Meditation & Yoga Course 50h certified{" "}
         </h5>
-      </Container>
+        <br></br>
+        <Button
+        variant="dark"
+        className="mb-5"
+        style={{ backgroundColor: "#444945" }}
+      >   <a href="/book" style={{color: "white"}}  >
+        BOOK NOW
+        </a>
+      </Button>
+    <br></br>
       <AnyQuestions />
       <MainFooter />
     </div>
