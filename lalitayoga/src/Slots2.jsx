@@ -14,7 +14,11 @@ function Slots(props) {
                 <Col >
                     <h1>{props.tittle}</h1>
                     <p  style={{textAlign:"justify"}} >{props.text} </p>
-                    <Button variant="outline-dark" className="mt-3 ">{props.button}</Button>
+                    <a href={props.link} style={{ color: "black" }}>
+            <Button variant="outline-dark" className="mt-3">
+              {props.button}
+            </Button>
+              </a>
                 </Col>
                 <Col >
                     <img src={yoga} className='img-fluid ml-5' alt='yoga'  />

@@ -3,11 +3,14 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import yoga from "./assets/salayoga.jpg";
+import { motion } from "framer-motion"
 
 function Slots(props) {
   return (
     <div>
+
       <Container className="d-flex justify-content-center mb-2">
+
         <Row className="d-flex flex-column justify-content-around flex-lg-row align-items-center  ">
           <Col>
             <img src={yoga} className="img-fluid " alt="yoga" />
@@ -15,9 +18,11 @@ function Slots(props) {
           <Col>
             <h1>{props.tittle}</h1>
             <p style={{ textAlign: "justify" }}>{props.text}</p>
+              <a href={props.link} style={{ color: "black" }}>
             <Button variant="outline-dark" className="mt-3">
               {props.button}
             </Button>
+              </a>
           </Col>
         </Row>
       </Container>
