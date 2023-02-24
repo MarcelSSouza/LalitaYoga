@@ -20,10 +20,10 @@ function MenuBar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav " />
         <Navbar.Collapse id="responsive-navbar-nav" className='d-lg-flex justify-content-lg-end justify-content-lg-end'>
           <Nav >
-            <Nav.Link href="/about">OUR FAMILY</Nav.Link>
+            <Nav.Link href="/about">OUR TEAM</Nav.Link>
             <Nav.Link href="/yoga">YOGA</Nav.Link>
             <Nav.Link href="/house">HOUSE</Nav.Link>
-            <Nav.Link href="/book">BOOK</Nav.Link>
+            <Nav.Link href="/book">BOOKING</Nav.Link>
             <Nav.Link href="/food">FOOD</Nav.Link>
             <Nav.Link href="/contact">CONTACT</Nav.Link>
             <Nav.Link href="/next">EVENTS</Nav.Link>
