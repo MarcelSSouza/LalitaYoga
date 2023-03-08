@@ -16,8 +16,11 @@ export default function FoodPage() {
             <br />
             <br />
             <br />
-            <h1>Vegan and Local-Food</h1>
-            <p style={{textAlign: "justify"}} className="m-5">Eating a healthy, plant-based diet is crucial for both your physical and mental well-being. By consuming a variety of whole, unprocessed foods, you can provide your body with the essential nutrients it needs to function at its best. Adopting a vegan lifestyle not only benefits your own health, but also has a positive impact on the environment and animal welfare. So why not make a change today and start incorporating more fruits, vegetables, legumes, and whole grains into your diet?</p>
+            <h1> FOOD MADE WITH LOVE</h1>
+            <p style={{textAlign: "justify"}} className="m-5">Can you imagine eating healthy, seasonal, homemade food made with love every day? The team of the Lalitā House Yoga Camp takes care of preparing balanced meals, natural and full of positive energy. We embrace the Sattvic Diet (harmonic) described in the old Yoga and Ayurveda manuals, composed of vegetarian and vegan nutrients. On our table you will always find fresh fruits and vegetables from the local farms, same for different types of legumes, whole grains, local cheeses, and yogurt. We use fresh ingredients to create original recipes that combine the sattvic and modern lifestyles.
+
+ 
+<br></br>In case of special dietary requirements, we can easily make the necessary arrangements for you.</p>
             <img src={food1} className="w-75 h-auto m-3" />
             <img src={food2} className="w-75 h-auto m-3" />
             <img src={food2} className="w-75 h-auto m-3" />

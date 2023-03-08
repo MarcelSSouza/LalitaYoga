@@ -40,7 +40,7 @@ function YogaPage() {
         based on the studying and execution of traditional Mantras, practice of
         Asanās (postures), Surya Namaskār, Prāṇāyāma (breathing exercises), and
         Yoganidrā (conscious relaxation).Textbooks and printed course materials,
-        <a href="/news"> welcome kit</a>, Āsana practice props are provided to
+        <a href="/welcomekit"> welcome kit</a>, Āsana practice props are provided to
         all the students. The meditation and practices are made both outdoor in
         the garden and in the Yoga shala, depending on weather conditions and
         group needs. The Courses will be taught by notable{" "}

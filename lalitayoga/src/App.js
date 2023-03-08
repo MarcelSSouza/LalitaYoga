@@ -13,6 +13,7 @@ import BookPage from './BookPage';
 import ImmersionPage from "./ImmersionPage"
 import MeditationPage from "./MeditationPage"
 import RetreatPage from "./RetreatPage"
+import WelcomeKit from "./WelcomeKit"
 function App() {
   return (
     <div className="App">
@@ -29,6 +30,7 @@ function App() {
           <Route path="yoga/meditationcourse" element={<MeditationPage />} />
           <Route path="yoga/traditionalretreat" element={<RetreatPage />} />
           <Route path="next" element={<EventsPage />} />
+          <Route path="welcomekit" element={<WelcomeKit />} />
         </Routes>
       </BrowserRouter>
     </div>

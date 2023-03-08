@@ -2,7 +2,7 @@ import React from "react";
 import AnyQuestions from "./AnyQuestions";
 import MainFooter from "./MainFooter";
 import MenuBar from "./MenuBar";
-import lucia from "./assets/lucia.jpeg";
+import lucia from "./assets/lucia.png";
 import babette from "./assets/Babette1.png";
 import Button from "react-bootstrap/Button";
 
@@ -10,7 +10,6 @@ import ContactForm from "./ContactForm";
 
 import { Container, Row, Col } from "react-bootstrap";
 import yoga from "./assets/salayoga.jpg";
-
 function OurFamily(props) {
   return (
     <div>
@@ -22,7 +21,6 @@ function OurFamily(props) {
           className="d-flex justify-content-around  align-items-center mt-5 "
         >
           <Col className="d-flex flex-column">
-            <img src={yoga} className="img-fluid ml-5 w-100" alt="yoga" />
             <h1>Mônica</h1>
             <h5>Founder & Food</h5>
             <p style={{ textAlign: "justify" }}>
@@ -39,7 +37,6 @@ function OurFamily(props) {
             </p>
           </Col>
           <Col className="d-flex flex-column justify-content-around  ">
-            <img src={yoga} className="img-fluid ml-5" alt="yoga" />
             <h1>Adriano</h1>
             <h5>Founder & Yoga</h5>
             <p style={{ textAlign: "justify" }}>

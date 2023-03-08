@@ -21,7 +21,7 @@ function Slots(props) {
               </a>
                 </Col>
                 <Col >
-                    <img src={yoga} className='img-fluid ml-5' alt='yoga'  />
+                    <img src={props.image} className='img-fluid ml-5' alt='yoga'  />
                 </Col>
             </Row>
         </Container>

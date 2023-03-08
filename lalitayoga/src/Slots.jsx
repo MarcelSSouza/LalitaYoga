@@ -2,7 +2,6 @@
 
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import yoga from "./assets/salayoga.jpg";
 import { motion } from "framer-motion"
 
 function Slots(props) {
@@ -13,7 +12,7 @@ function Slots(props) {
 
         <Row className="d-flex flex-column justify-content-around flex-lg-row align-items-center  ">
           <Col>
-            <img src={yoga} className="img-fluid " alt="yoga" />
+            <img src={props.image} className="img-fluid " alt="yoga" />
           </Col>
           <Col>
             <h1>{props.tittle}</h1>
